@@ -32,5 +32,6 @@ Stream.of("Tiki","Aiki","Ciki","Aaiki","BBiki").filter(s->s.endsWith("i")).map(s
     public static void table(WebDriver driver) {
     	WebElement names=driver.findElements(By.xpath("//table//tbody//tr")).get(0);
     	System.out.println(names);
+    	System.out.println(ar);
     }
 }
